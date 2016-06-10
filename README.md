@@ -79,6 +79,16 @@ When you commit for a new feature that is ready to merge into the master, it's i
 ###Communicate with Team
 Communicate with you team and notify them of the new release. If someone else is working with the code, collaborate how your new changes can merge with their new cheanges before promotion. 
 
+###Staging
+
+For staging, there needs to be a separate server to test new code and edits. Once we spin up the spin-up the staging server, we have complete the process of deployment and connected to our Github as shown in the instructions **Steps to deploy website**.
+
+Once you're all set up, any branches you have been testing on, merge to master (follow steps in **Merge development branch into Master**) and push to the staging server to test if all code is functioning correctly. 
+
+If all feature works and functionality hasn't been compromised, push to production/live server. 
+
+
+
 
   
   
