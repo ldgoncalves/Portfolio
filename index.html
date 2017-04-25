@@ -2,71 +2,61 @@
 <html lang="en">
 
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Luana Goncalves's Portfolio</title>
-
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css" type="text/css">
-
     </head>
 
-    <body id="home" data-spy="scroll" data-target=".navbar">
+    <body data-spy="scroll" data-target=".navbar">
 
         <!-- Navbar -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
 
-                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Navbar-header and Toggle-->
                 <div class="navbar-header">
-
                     <!-- Toggle -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
-                    <!-- Brand -->
+                    <!-- Brand/Logo -->
                     <a class="navbar-brand" href="index.html">
-                      <h1>Luana Goncalves</h1>
+                        <h1>Luana Goncalves</h1>
                     </a>
                 </div>
-                <!-- End Navbar-Header -->
+                <!-- End Navbar-Header and Toggle-->
 
-                <!-- Collect the nav links for toggling -->
+                <!-- Navbar-Collapse -->
                 <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="scroll"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="scroll"><a href="#about">About</a></li>
-                        <li class="scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class=""><a href="#contact">Contact</a></li>
+                        <li><a class="active" href="#home">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <!-- End Navbar-Collapse -->
-
             </div>
             <!-- End Container-Fluid -->
-
         </nav>
         <!--End Navbar -->
 
-        <!-- Header -->
-        <header class="jumbotron">
-            <div class="container hero">
-                <p>I like to daydream and through daydreaming problems can be solved. Yogi aficionado. I run for food. Web Design and Development student at Full Sail University.</p>
-            </div>
-        </header>
-        <!-- End Header -->
-
         <!-- Main -->
+
         <div class="container">
+            <!-- Home -->
+            <div id="home" class="row">
+                <h1>HOME</h1>
+            </div>
+
+            <!-- End Home -->
             <!-- About -->
             <div id="about" class="row">
                 <h1>About Me</h1>
@@ -235,6 +225,8 @@
 
         <!-- Respond JavaScript -->
         <script src="js/respond.js"></script>
+
+    <script>$('body').scrollspy({ target: '.navbar' })</script>
 
     </body>
 
