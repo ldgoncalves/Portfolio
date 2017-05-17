@@ -80,9 +80,9 @@ button.navbar-toggle{
 
 /*-------- STYLING OF JUMBOTRON ---------*/
 .jumbotron {
-    height: 500px;
+    height: 600px;
     background-color: #fff;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .jumbotron h1, p {
@@ -108,7 +108,7 @@ button.navbar-toggle{
 }
 
 .jumbotron p.portfolio-button {
-    margin-top: 100px;
+    margin-top: 200px;
     font-family: "Bebas Neue Regular";
 }
 
@@ -130,7 +130,9 @@ button.navbar-toggle{
 /*-------- STYLING OF MAIN ---------*/
 
 #about h1, #portfolio h1, #contact h1{
-    text-transform: uppercase;
+    text-align: center;
+    font: 5em "Bebas Neue Book";
+    margin: 50px 0 50px 0;
 }
 
 #about span {
@@ -140,10 +142,28 @@ button.navbar-toggle{
 }
 
 
-#portfolio .btn {
-    background-color: #2c3e50;
+/*-------- STYLING OF PORTFOLIO ---------*/
+
+.caption h3 {
+    text-align:center;
 }
 
+#portfolio .btn {
+    background-color: black;
+    border:none;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+#portfolio .btn:hover {
+    background-color: darkred;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
 footer {
     text-align: center;
     font-size: .75em;
