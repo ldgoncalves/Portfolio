@@ -164,6 +164,53 @@ button.navbar-toggle{
     -o-transition: background-color 2s ease-out;
     transition: background-color 2s ease-out;
 }
+
+/*-------- STYLING OF FitVids ---------*/
+
+.header {
+    height:auto;
+    margin-top: 50px;
+}
+
+.header h1{
+    text-align: center;
+    font: 5em "Bebas Neue Regular";
+    margin-top: 100px;
+}
+
+.header h4 {
+    font: 1.5em "Bebas Neue Book";
+    margin-top: 100px;
+}
+
+.header h4 a {
+    color: #000;
+}
+
+.header h4 a:hover {
+    color: darkred;
+}
+
+.header img {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main p {
+    text-align: left;
+}
+
+.style-guide {
+    max-width: 650px;
+    margin-top: 30px;
+}
+
+.main footer > p {
+    text-align: center;
+}
+
+
 footer {
     text-align: center;
     font-size: .75em;
